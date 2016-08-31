@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "curl -ik -X POST 'https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EAAChxz0eOssBAPJZCQZAx93U97XBdvAMsVgNnWTstzplVTvfZBK7UpwyW39zwzXhZAkDmSZBwAz1ZBbSnZBTYc9ayDpgT02SXSMNTvtiX8zyxyyNl92J7bGrU8mHuf6iz1ihJcRZAZCgOqKcHS4heAzScvoWNZAhEwyeSI0tgcbKit1wZDZD' && node index.js"
   },
   "author": "JackyWu, SlanLin, CornYang",
   "license": "ISC",
